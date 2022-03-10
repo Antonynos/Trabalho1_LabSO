@@ -1,0 +1,6 @@
+#!/bin/bash
+cat /proc/cpuinfo
+whoiam
+uname -a
+free
+df -h
