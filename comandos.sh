@@ -33,7 +33,6 @@ print_usb(){
 	else
 		for i in $(seq 1 $n_porta); do
         		echo " Portas USB -> ${usbs[i]}";
-				echo "  ↳ ${usbs[i]}";
 		done
 	fi
 }
@@ -41,17 +40,17 @@ print_usb(){
 echo -e " ______________________________________________________________________"
 echo -e " Nome do usuario   $usuario"
 echo -e " Processador - $nome_processador"
-echo -e "  ↳ Clock   -> $clock_mhz MHz"
-echo -e "  ↳ Núcleos -> $n_thread"
-echo -e "  ↳ Threads -> $n_nucleo"
+echo -e "  ╚ Clock   -> $clock_mhz MHz"
+echo -e "  ╚ Núcleos -> $n_thread"
+echo -e "  ╚ Threads -> $n_nucleo"
 echo -e " Disco - $nome_disco"
-echo -e "  ↳ Total -> $info_disco_total"
-echo -e "  ↳ Usado -> $info_disco_usado"
-echo -e "  ↳ Livre -> $disco_livre"
+echo -e "  ╚ Total -> $info_disco_total"
+echo -e "  ╚ Usado -> $info_disco_usado"
+echo -e "  ╚ Livre -> $disco_livre"
 echo -e " Memoria RAM"
-echo -e "  ↳ Total -> $memoria_ram_total"
-echo -e "  ↳ Usada -> $memoria_ram_usada"
-echo -e "  ↳ Livre -> $memoria_ram_livre"
+echo -e "  ╚ Total -> $memoria_ram_total"
+echo -e "  ╚ Usada -> $memoria_ram_usada"
+echo -e "  ╚ Livre -> $memoria_ram_livre"
 echo -e " Endereço de Rede - $rede"
 print_usb
 echo -e " ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾"
